@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumyadeep Kar | Student Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Soumyadeep Kar</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <div class="theme-toggle-wrapper">
+                    <span class="theme-label" id="themeLabel">Light Mode</span>
+                    <button id="themeToggle" class="theme-toggle-slider" aria-label="Toggle Dark Mode" role="switch"
+                        aria-checked="false">
+                        <span class="slider-circle"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Animated Background Shapes -->
+        <div class="hero-bg">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="reveal">Soumyadeep Kar</h1>
+                <div class="titles reveal">Student Developer | Frontend Website Creator | Social Media Manager</div>
+                <p class="tagline reveal">"I help small businesses build their online presence with modern websites and
+                    smart social media management."</p>
+                <div class="hero-buttons reveal">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Book Appointment</a>
+                    <a href="#" class="btn btn-whatsapp wp-btn"
+                        data-message="Hello Soumyadeep, I want to book an appointment to discuss a website or social media service."><i
+                            class="fab fa-whatsapp"></i> WhatsApp Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image reveal slide-in-right">
+                <div class="image-wrapper glass-card">
+                    <!-- Replace the src with your own image path, e.g., src="images/my-profile.jpg" -->
+                    <img src="Myimg.jpeg"
+                        alt="Soumyadeep Kar" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-padding" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">About <span>Me</span></h2>
+            <div class="about-content glass-card reveal">
+                <p class="about-text">
+                    I am currently learning programming and web development, passionate about technology and building
+                    projects. My main focus is helping small businesses grow online through high-quality frontend
+                    development and effective social media management.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline Section -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">My <span>Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item left reveal slide-in-left">
+                    <div class="timeline-content glass-card">
+                        <div class="year">2023</div>
+                        <h3>Passed Class 10</h3>
+                        <p>Bidhan Nagar Government High School</p>
+                    </div>
+                </div>
+                <div class="timeline-item right reveal slide-in-right">
+                    <div class="timeline-content glass-card">
+                        <div class="year">2025</div>
+                        <h3>Passed Class 12</h3>
+                        <p>Taki House, Govt Sponsored Multipurpose School for Boys</p>
+                    </div>
+                </div>
+                <div class="timeline-item left reveal slide-in-left">
+                    <div class="timeline-content glass-card">
+                        <div class="year">Currently</div>
+                        <h3>Pursuing BCA</h3>
+                        <p>Bachelor of Computer Applications<br>Institute of Engineering and Management</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Currently Learning Section -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Currently <span>Learning</span></h2>
+            <div class="learning-grid">
+                <div class="learning-card glass-card reveal zoom-in" style="transition-delay: 0.1s;">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="learning-card glass-card reveal zoom-in" style="transition-delay: 0.2s;">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="learning-card glass-card reveal zoom-in" style="transition-delay: 0.3s;">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="learning-card glass-card reveal zoom-in" style="transition-delay: 0.4s;">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming</h3>
+                </div>
+                <div class="learning-card glass-card reveal zoom-in" style="transition-delay: 0.5s;">
+                    <i class="fas fa-desktop"></i>
+                    <h3>UI Design</h3>
+                </div>
+                <div class="learning-card glass-card reveal zoom-in" style="transition-delay: 0.6s;">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Tools</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section-padding" id="services">
+        <div class="container">
+            <h2 class="section-title reveal">Services I <span>Provide</span></h2>
+            <div class="services-grid">
+                <div class="service-card glass-card reveal slide-in-left">
+                    <i class="fas fa-laptop-code"
+                        style="font-size: 3rem; color: var(--primary); margin-bottom: 1.5rem; display: block;"></i>
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li>Business websites</li>
+                        <li>Restaurant websites</li>
+                        <li>Gym websites</li>
+                        <li>Personal websites</li>
+                        <li>Landing pages</li>
+                    </ul>
+                </div>
+                <div class="service-card glass-card reveal slide-in-right">
+                    <i class="fas fa-share-alt"
+                        style="font-size: 3rem; color: var(--neon-cyan); margin-bottom: 1.5rem; display: block;"></i>
+                    <h3>Social Media Management</h3>
+                    <ul>
+                        <li>Managing Instagram and Facebook</li>
+                        <li>Content posting and scheduling</li>
+                        <li>Improving business online presence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section-padding" id="portfolio">
+        <div class="container">
+            <h2 class="section-title reveal">Demo <span>Websites</span></h2>
+            <p class="reveal" style="text-align: center; margin-bottom: 3rem; color: var(--text-light);">Interactive
+                demo websites built with modern UI.</p>
+
+            <div class="portfolio-grid">
+                <!-- Demo Item 1 -->
+                <div class="portfolio-card glass-card reveal zoom-in" style="transition-delay: 0.1s;">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop"
+                            alt="Gym Demo" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Gym Website</h3>
+                        <p>High-energy design for fitness centers with neon accents.</p>
+                        <div class="portfolio-actions" style="display:flex; gap:10px;">
+                            <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Demo Item 2 -->
+                <div class="portfolio-card glass-card reveal zoom-in" style="transition-delay: 0.2s;">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop"
+                            alt="Restaurant Demo" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Restaurant Demo</h3>
+                        <p>Elegant and appetizing design for modern restaurants.</p>
+                        <div class="portfolio-actions" style="display:flex; gap:10px;">
+                            <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Demo Item 3 -->
+                <div class="portfolio-card glass-card reveal zoom-in" style="transition-delay: 0.3s;">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=800&auto=format&fit=crop"
+                            alt="Doctor Clinic" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Doctor Clinic</h3>
+                        <p>Clean and trusting design for medical professionals.</p>
+                        <div class="portfolio-actions" style="display:flex; gap:10px;">
+                            <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Demo Item 4 -->
+                <div class="portfolio-card glass-card reveal zoom-in" style="transition-delay: 0.4s;">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=800&auto=format&fit=crop"
+                            alt="Tattoo Shop" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Tattoo Shop</h3>
+                        <p>Edgy, dark-themed website perfect for tattoo artists.</p>
+                        <div class="portfolio-actions" style="display:flex; gap:10px;">
+                            <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Demo Item 5 -->
+                <div class="portfolio-card glass-card reveal zoom-in" style="transition-delay: 0.5s;">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=800&auto=format&fit=crop"
+                            alt="Personal Portfolio" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>A sleek template for freelancers to showcase work.</p>
+                        <div class="portfolio-actions" style="display:flex; gap:10px;">
+                            <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section-padding" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <!-- Frontend Skills -->
+                <div class="skill-category glass-card reveal slide-in-left">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML & CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Responsive Design</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital Skills -->
+                <div class="skill-category glass-card reveal slide-in-right">
+                    <h3>Digital & Design</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Social Media Management</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Website UI Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Online Presence Setup</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section class="section-padding" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Book an <span>Appointment</span></h2>
+
+            <div class="contact-wrapper">
+                <div class="contact-info reveal slide-in-left">
+                    <h3>Let's work together!</h3>
+                    <p>I would love to help you build your online presence. Contact me to discuss your website or social
+                        media needs.</p>
+
+                    <div class="info-item glass-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Me</h4>
+                            <p style="font-size: 0.9rem;">ksoumya556@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item glass-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="#" class="btn btn-whatsapp wp-btn"
+                                style="margin-top: 0.5rem; padding: 0.5rem 1rem;"
+                                data-message="Hello Soumyadeep, I want to book an appointment to discuss a website or social media service.">Book
+                                via WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item glass-card" style="margin-top: 1rem;">
+                        <h4>Follow me: </h4>
+                        <a href="https://www.instagram.com/umbrellaaaaaa__/?hl=en" target="_blank"
+                            style="font-size: 2rem; color: #E1306C; margin-left: 1rem; transition: transform 0.3s;"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="info-item glass-card" style="margin-top: 1rem;">
+                        <h4>Follow me: </h4>
+                        <a href="https://www.facebook.com/soumyadeep.kar.714?rdid=F93fblwNJpJedDl8&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1J2fKrbtbJ%2F%3Fref%3D1#" target="_blank"
+                            style="font-size: 2rem; color: #E1306C; margin-left: 1rem; transition: transform 0.3s;"><i
+                                class="fab fa-facebook"></i></a>
+                    </div>
+                    <div class="info-item glass-card" style="margin-top: 1rem;">
+                        <h4>Follow me: </h4>
+                        <a href="https://www.linkedin.com/in/soumyadeep-kar-9951a9343/" target="_blank"
+                            style="font-size: 2rem; color: #E1306C; margin-left: 1rem; transition: transform 0.3s;"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+
+                <form action="https://formspree.io/f/xreygwky" method="POST"
+                    class="contact-form glass-card reveal slide-in-right">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="business">Business Name (Optional)</label>
+                        <input type="text" id="business" name="business" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Needed</label>
+                        <select id="service" name="service" class="form-control" required>
+                            <option value="">Select a service...</option>
+                            <option value="Website Development">Website Development</option>
+                            <option value="Social Media Management">Social Media Management</option>
+                            <option value="Both">Both (Website & Social Media)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="preferred_date" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-control"
+                            placeholder="Tell me more about your requirements..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Book Appointment</button>
+                    <input type="hidden" name="_next" value="#contact?success=true">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container reveal">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Soumyadeep Kar</h3>
+                    <p style="color: #94A3B8;">Student Developer | Frontend Creator | Social Media Manager</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/umbrellaaaaaa__/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/soumyadeep.kar.714?rdid=wbWyNfICI6vdVaQB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1J2fKrbtbJ%2F%3Fref%3D1#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/soumyadeep-kar-9951a9343/"><i class="fab fa-linkedin"></i></a>                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Soumyadeep Kar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
