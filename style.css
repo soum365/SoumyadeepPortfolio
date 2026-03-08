@@ -1,3 +1,10 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* This prevents that horizontal "jiggle" or white side-bar */
+    position: relative;
+}
 * {
     margin: 0;
     padding: 0;
