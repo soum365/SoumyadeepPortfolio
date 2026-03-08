@@ -1203,3 +1203,75 @@ footer::before {
         font-size: 2.2rem;
     }
 }
+/* EXTRA MOBILE RESPONSIVE FIX */
+@media screen and (max-width: 600px) {
+
+.container{
+padding:0 1.2rem;
+}
+
+.navbar .container{
+padding:1rem 1.2rem;
+}
+
+.hero{
+padding-top:100px;
+}
+
+.hero-content h1{
+font-size:2.2rem;
+}
+
+.hero-content .titles{
+font-size:1rem;
+}
+
+.hero-content .tagline{
+font-size:1rem;
+}
+
+.hero-buttons{
+flex-direction:column;
+align-items:center;
+}
+
+.btn{
+width:100%;
+max-width:260px;
+}
+
+.image-wrapper{
+max-width:220px;
+}
+
+.services-grid{
+grid-template-columns:1fr;
+}
+
+.portfolio-grid{
+grid-template-columns:1fr;
+padding:0;
+}
+
+.skills-container{
+flex-direction:column;
+gap:2rem;
+}
+
+.skill-category{
+min-width:auto;
+}
+
+.about-content{
+padding:2rem 1.5rem;
+}
+
+.contact-form{
+padding:2rem 1.5rem;
+}
+
+.section-padding{
+padding:4rem 0;
+}
+
+}
